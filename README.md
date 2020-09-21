@@ -12,6 +12,7 @@ I made it over the weekend for a job application. Everything was written from sc
 - Real-time point shadow mapping
 - Real-time environment mapping
 - Soft shadows
+- 1'500'000 triangles.
 - Transparency
 - Text rendering
 
