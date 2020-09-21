@@ -18,9 +18,11 @@ I made it over the weekend for a job application. Everything was written from sc
 
 ![screenshot 2](/screenshots/screenshot-2.png)
 
-## Requirements
+## Try it out
 
-A moderately-powerful OpenGL 4.3 capable GPU. For reference, I get 110 FPS on a mobile GTX 1050, and 30 FPS on an Intel HD 630.
+Download the latest release from [here](https://github.com/blat-blatnik/Car-Demo/releases) and run the executable.
+
+Note that you will need a _moderately_-powerful GPU. For reference, I get 110 FPS on a mobile GTX 1050, and 30 FPS on an Intel HD 630. Your GPU will also need to support at least OpenGL 4.3.
 
 ## How to compile ..
 
