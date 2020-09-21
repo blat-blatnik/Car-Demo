@@ -238,8 +238,8 @@ int main()
 		{
 			cameraRotX += 0.01f * mouseDeltaY;
 			cameraRotY += 0.01f * mouseDeltaX;
-			//cameraRotX = clamp(cameraRotX, 0.1f, +0.499f * Pi);
-			cameraRotX = clamp(cameraRotX, -0.499f * Pi, +0.499f * Pi);
+			cameraRotX = clamp(cameraRotX, 0.05f, +0.499f * Pi);
+			//cameraRotX = clamp(cameraRotX, -0.499f * Pi, +0.499f * Pi);
 		}
 
 		//controlPositionAndRotation(&stageLight1->transform, (float)deltaTime);
@@ -389,10 +389,10 @@ int main()
 		}
 
 		glUniform1f(13, 0.0f);
-		for (int i = 0; i < stageLight1->numModels; ++i)
-			drawModel(stageLight1->getModel(i), viewProjection);
-		for (int i = 0; i < stageLight2->numModels; ++i)
-			drawModel(stageLight2->getModel(i), viewProjection);
+		//for (int i = 0; i < stageLight1->numModels; ++i)
+		//	drawModel(stageLight1->getModel(i), viewProjection);
+		//for (int i = 0; i < stageLight2->numModels; ++i)
+		//	drawModel(stageLight2->getModel(i), viewProjection);
 		
 		glUseProgram(garageShader);
 		setUniform(0, garageModelMatrix);
@@ -432,8 +432,8 @@ int main()
 		glDisable(GL_DEPTH_TEST);
 
 		char string[256];
-		sprintf(string, "%.1lf fps", 1 / deltaTime);
-		drawString(segoeUi, string, vec2(10, 20), false, vec2(0.5));
+		//sprintf(string, "%.1lf fps", 1 / deltaTime);
+		//drawString(segoeUi, string, vec2(10, 20), false, vec2(0.5));
 		//sprintf(string, "camera = [%.1f %.1f %.1f]", cameraPos.x, cameraPos.y, cameraPos.z);
 		//drawString(segoeUi, string, vec2(10, 40), false, vec2(0.5));
 		//sprintf(string, "light = [%.1f %.1f %.1f]", lightPos.x, lightPos.y, lightPos.z);
