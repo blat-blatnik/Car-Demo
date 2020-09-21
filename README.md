@@ -10,11 +10,12 @@ I made it over the weekend for a job application. Everything was written from sc
 - Real-time point shadow mapping
 - Real-time environment mapping
 - Soft shadows
+- Transparency
 - Text rendering
 
 ## Requirements
 
-A moderately-powerful OpenGL 4.3 capable GPU. For reference, I get 110 FPS on mobile GTX 1050, and 30 FPS on Intel HD 630.
+A moderately-powerful OpenGL 4.3 capable GPU. For reference, I get 110 FPS on a mobile GTX 1050, and 30 FPS on an Intel HD 630.
 
 ## How to compile ..
 
