@@ -57,6 +57,7 @@ extern struct gladGLversionStruct GLVersion;
 extern int gladLoadGLLoader(GLADloadproc);
 
 #include <stdint.h>
+#include <stddef.h>
 
 typedef unsigned char GLboolean;
 typedef unsigned int GLbitfield;

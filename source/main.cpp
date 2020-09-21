@@ -432,8 +432,8 @@ int main()
 		glDisable(GL_DEPTH_TEST);
 
 		char string[256];
-		//sprintf(string, "%.1lf fps", 1 / deltaTime);
-		//drawString(segoeUi, string, vec2(10, 20), false, vec2(0.5));
+		sprintf(string, "%.1lf fps", 1 / deltaTime);
+		drawString(segoeUi, string, vec2(10, 20), false, vec2(0.5));
 		//sprintf(string, "camera = [%.1f %.1f %.1f]", cameraPos.x, cameraPos.y, cameraPos.z);
 		//drawString(segoeUi, string, vec2(10, 40), false, vec2(0.5));
 		//sprintf(string, "light = [%.1f %.1f %.1f]", lightPos.x, lightPos.y, lightPos.z);
