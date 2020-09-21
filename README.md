@@ -16,7 +16,7 @@ I made it over the weekend for a job application. Everything was written from sc
 - Transparency
 - Text rendering
 
-![screenshot 2](/screenshots/screenshot-2.png)
+![screenshot 4](/screenshots/screenshot-4.png)
 
 ## Try it out
 
