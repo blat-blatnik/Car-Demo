@@ -55,9 +55,11 @@ This was a very quick project, so there is a lot more that I could add.
 - [ ] make the car driveable
   - [ ] animate car wheels
   - [ ] simple physics
+- [ ] place a reflective plane on the ground
 - [ ] find better looking textures for the garage
 - [ ] find a better car model
 - [ ] fix shadow acne
+- [ ] SSAO
 
 I think this whole scene would look especially good with some nice volumetric shadows (and some better textures for the background).
 
