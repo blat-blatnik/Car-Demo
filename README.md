@@ -12,7 +12,7 @@ I made it over the weekend for a job application. Everything was written from sc
 - Real-time point shadow mapping
 - Real-time environment mapping
 - Soft shadows
-- 1'500'000 triangles.
+- 1'500'000 triangles
 - Transparency
 - Text rendering
 
@@ -58,6 +58,8 @@ This was a very quick project, so there is a lot more that I could add.
 - [ ] find better looking textures for the garage
 - [ ] find a better car model
 - [ ] fix shadow acne
+
+I think this whole scene would look especially good with some nice volumetric shadows (and some better textures for the background).
 
 ## Libraries
 
