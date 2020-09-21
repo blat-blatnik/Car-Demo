@@ -4,6 +4,8 @@ A simple scene with a high-poly sports car model in a small garage.
 
 I made it over the weekend for a job application. Everything was written from scratch in C++ 17.
 
+![screenshot 3](/screenshots/screenshot-3.png)
+
 ## Features
 
 - Lighting
@@ -12,6 +14,8 @@ I made it over the weekend for a job application. Everything was written from sc
 - Soft shadows
 - Transparency
 - Text rendering
+
+![screenshot 2](/screenshots/screenshot-2.png)
 
 ## Requirements
 
