@@ -37,7 +37,7 @@ Make sure you've installed the [GLFW](https://www.glfw.org/download.html) librar
 Navigate to the root of this project and compile the project with this line:
 
 ```bash
-$ g++ -std=c++17 source/*.cpp -lm -lglfw3
+$ g++ -std=c++17 source/*.cpp source/lib/*.cpp -lm -lglfw
 ```
 
 ## TODO
